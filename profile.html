@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Доставка готовой еды</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media-quality.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto-regular&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto-medium:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto-bold:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto-light:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mobile-header">	
+		<div class="mobile-header__wrapper">
+			<a href="#menu-burger" class="mobile-header__link">
+				<img src="image/mobile-header/burger.png" alt="" class="burger__icon">
+			</a>
+			<a href="" class="mobile-header__link">
+				<img src="image/logo.png" alt="" class="mobile-header__logo">
+			</a>
+			<a href="" class="mobile-header__link">
+				<img src="image/mobile-header/wand.png" alt="" class="mobile-header__icon">
+			</a>
+			<a href="" class="mobile-header__link">
+				<img src="image/mobile-header/phone.svg" alt="" class="mobile-header__icon">
+			</a>
+			<a href="" class="mobile-header__link">
+				<img src="image/mobile-header/basket.png" alt="" class="mobile-header__icon">
+			</a>
+		</div>
+		<label for="" class="mobile-header__label">
+			<input type="search" placeholder="Поиск по сайту">
+			<a href="" class="mobile-header__cancel">
+				<img src="image/mobile-header/cancel.png" alt="">
+			</a>
+		</label>
+		</div>
+	</div>
+
+	<header class="header">
+		<div class="header-top">
+			<nav class="header__nav">
+				<ul class="header-top__menu">
+					<li class="header-top__item">
+						<a href="" class="header-top__link">Главная</a>
+					</li>
+					<li class="header-top__item">	
+						<a href="" class="header-top__link">Акции</a>
+					</li>
+					<li class="header-top__item">	
+						<a href="" class="header-top__link">Помощь</a>
+					</li>
+					<li class="header-top__item">	
+						<a href="" class="header-top__link">Доставка и оплата</a>
+					</li>
+					<li class="header-top__item">	
+						<a href="" class="header-top__link">Оптовым покупателям</a>
+					</li>
+					<li class="header-top__item">	
+						<a href="" class="header-top__link">Отзывы</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="" class="header-top__profile">Войти/Регистрация</a>
+			<a href="" class="header-top__button">Мне повезет</a>
+		</div>
+		<div class="header-bottom">
+			<img src="image/logo.png" alt="" class="logo">
+			<a href="tel:+79999123341" class="header-bottom__link">
+				<img src="image/phone.svg" alt="" class="header-bottom__img">
+				<span class="telephone__span">+7 (999) 912-33-41</span>
+			</a>
+			<div class="header-bottom__link">
+				<img src="image/label.png" alt="" class="header-bottom__img">
+				<span class="adress">163057, г. Архангельск,<br>ул. Тимме, д.4, корп.3</span>
+			</div>
+			<label class="search">
+				<input type="search" class="search__input" placeholder="Поиск по сайту">
+				<button class="search__span">
+					<img src="image/search.png" alt="" class="search__img">
+				</button>
+			</label>
+			<div class="basket">
+				<img src="image/basket.png" alt="" class="basket__icon">
+				<div class="basket__block">
+					<span class="basket__cost">12 520 руб.</span>
+					<span class="basket__quantity">2 товара</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main mobile-main">
+		<ul class="breadcrumps hidden">
+			<li class="breadcrumps__item">
+				<a href="" class="breadcrumps__link">Главная</a>
+			</li>
+			<span>/</span>
+			<li class="breadcrumps__item">
+				<a href="" class="breadcrumps__link">Персональный раздел</a>
+			</li>
+		</ul>
+		<div class="main__wrapper">	
+			<h1 class="section__title hidden">Профиль пользователя</h1>
+			<form action="" class="profile-form hidden">
+				<img src="image/profile/fi-1.png" alt="" class="profile-form__icon">
+				<h3 class="profile-form__title">Персональные данные</h3>
+				<div class="profile-form__string">
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Имя</span>
+						<input type="text" class="profile-form__input">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Фамилия</span>
+						<input type="text" class="profile-form__input">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Отчество</span>
+						<input type="text" class="profile-form__input">
+					</label>
+				</div>
+				<div class="profile-form__string">
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Телефон</span>
+						<input type="text" class="profile-form__input" placeholder="+7 (___) ___-__-__">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Email</span>
+						<input type="text" class="profile-form__input">
+					</label>
+				</div>
+				<button class="pointer__button profile__button">Сохранить</button>
+			</form>
+
+			<form action="" class="profile-form hidden">
+				<img src="image/profile/fi-2.png" alt="" class="profile-form__icon">
+				<h3 class="profile-form__title">Уведомления</h3>
+				<div class="profile-form__string profile-checkbox__string">
+					<span class="profile-form__string-span">Поступил товар на который вы <a href="">подписались</a></span>
+					<div class="radio">
+						<div class="radio-block">
+							<span>EMAIL</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>WhatsApp</span>
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>SMS</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+				</div>
+				<div class="profile-form__string profile-checkbox__string">
+					<span class="profile-form__string-span">Заканчивается акция на товар в корзине</span>
+					<div class="radio">
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+				</div>
+				<div class="profile-form__string profile-checkbox__string">
+					<span class="profile-form__string-span">Информирование о статусах заказа</span>
+					<div class="radio">
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+				</div>
+				<button class="pointer__button profile__button">Сохранить</button>
+			</form>
+
+			<form action="" class="profile-form hidden">
+				<img src="image/profile/fi-3.png" alt="" class="profile-form__icon">
+				<h3 class="profile-form__title">Безопасность</h3>
+				<div class="profile-form__string">
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Новый пароль</span>
+						<input type="text" class="profile-form__input">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Повторите новый пароль</span>
+						<input type="text" class="profile-form__input">
+					</label>
+				</div>
+				<button class="pointer__button profile__button">Сохранить</button>
+			</form>
+
+			<form action="" class="profile-form visible">
+				<div class="flex-box">
+					<img src="image/profile/fi-1.png" alt="" class="profile-form__icon">
+					<h3 class="profile-form__title">Персональные данные</h3>
+				</div>
+				<div class="profile-form__string">
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Имя</span>
+						<input type="text" class="profile-form__input">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Фамилия</span>
+						<input type="text" class="profile-form__input">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Отчество</span>
+						<input type="text" class="profile-form__input">
+					</label>
+				</div>
+				<div class="profile-form__string">
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Телефон</span>
+						<input type="text" class="profile-form__input" placeholder="+7 (___) ___-__-__">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Email</span>
+						<input type="text" class="profile-form__input">
+					</label>
+				</div>
+				<button class="pointer__button profile__button">Сохранить</button>
+			</form>
+
+			<form action="" class="profile-form visible">
+				<div class="flex-box jcl">
+				<img src="image/profile/fi-2.png" alt="" class="profile-form__icon">
+				<h3 class="profile-form__title">Уведомления</h3>
+				</div>
+				<div class="profile-form__string profile-checkbox__string">
+					<span class="profile-form__string-span">Поступил товар на который вы <a href="">подписались</a></span>
+					<div class="radio visible">
+						<div class="radio-block">
+							<span>EMAIL</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>WhatsApp</span>
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>SMS</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+				</div>
+				<div class="profile-form__string profile-checkbox__string">
+					<span class="profile-form__string-span">Заканчивается акция на товар в корзине</span>
+					<div class="radio visible">
+						<div class="radio-block">
+							<span>EMAIL</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>WhatsApp</span>
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>SMS</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+					<div class="radio hidden  hd">
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+				</div>
+				<div class="profile-form__string profile-checkbox__string">
+					<span class="profile-form__string-span">Информирование о статусах заказа</span>
+					<div class="radio visible">
+						<div class="radio-block">
+							<span>EMAIL</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>WhatsApp</span>
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							<span>SMS</span>
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+					<div class="radio hidden hd">
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch switch-margin">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+						<div class="radio-block">
+							
+							<label class="profile-content-form__switch">
+                        <input type="checkbox">
+                        <span class="profile-content-form__slider"></span>
+                     </label>
+						</div>
+					</div>
+				</div>
+				<button class="pointer__button profile__button">Сохранить</button>
+			</form>
+
+			<form action="" class="profile-form visible">
+				<div class="flex-box jcl">
+					<img src="image/profile/fi-3.png" alt="" class="profile-form__icon">
+					<h3 class="profile-form__title">Безопасность</h3>
+				</div>
+				<div class="profile-form__string">
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Новый пароль</span>
+						<input type="text" class="profile-form__input">
+					</label>
+					<label for="" class="profile-form___label">
+						<span class="profile-form__span">Повторите новый пароль</span>
+						<input type="text" class="profile-form__input">
+					</label>
+				</div>
+				<button class="pointer__button profile__button">Сохранить</button>
+			</form>
+
+		</div>
+		<aside class="aside-profile">				   
+  			<ul class="profile-aside__list">
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/1.png" alt="">
+	  					<span>Моя профиль</span>
+  					</a>
+  				</li>
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/2.png" alt="">
+	  					<span>Моя карта</span>
+  					</a>
+  				</li>
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/3.png" alt="">
+	  					<span>Мои адреса</span>
+  					</a>
+  				</li>
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/4.png" alt="">
+	  					<span>История заказов</span>
+  					</a>
+  				</li>
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/5.png" alt="">
+	  					<span>Избранное</span>
+  					</a>
+  				</li>
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/6.png" alt="">
+	  					<span>Мои подписки</span>
+  					</a>
+  				</li>
+  				<li class="profile-aside__item">
+  					<a href="" class="profile-aside__link">
+	  					<img src="image/profile/7.png" alt="">
+	  					<span>Выйти из профиля</span>
+  					</a>
+  				</li>
+  			</ul>	
+		</aside>
+		<h1 class="section__title visible tx-c">Профиль<br>пользователя</h1>
+		<ul class="breadcrumps visible w100">
+			<li class="breadcrumps__item">
+				<a href="" class="breadcrumps__link">Главная</a>
+			</li>
+			<span>/</span>
+			<li class="breadcrumps__item">
+				<a href="" class="breadcrumps__link">Персональный раздел</a>
+			</li>
+		</ul>
+	</main>
+	<footer class="footer">
+		<span class="copyright">@ 2021 Название сайта. Доставка товаров на дом.</span>
+		<a href="tel:+79999123341" class="footer__link">
+			<img src="image/ft_phone.svg" alt="" class="footer__img">
+			<span class="footer__span">+7 (999) 912-33-41</span>
+		</a>
+		<div class="footer__link">
+			<img src="image/ft_label.png" alt="" class="footer__img-adress">
+			<span class="footer__span">163057, г. Архангельск, ул. Тимме, д.4, корп.3</span>
+		</div>
+	</footer>
+		<div id="menu-burger" class="menu-burger">
+			<div class="menu-burger-container">
+			<a href="" class="burger__cancel">
+				<img src="image/mobile-header/cancel-burger.png" alt="" class="burger__cancel-img">
+			</a>
+			<a href="" class="header-top__button burger-button">Мне повезет</a>
+			<ul class="header-top__menu">
+				<li class="header-top__item">
+					<a href="" class="header-top__link">Главная</a>
+				</li>
+				<li class="header-top__item">	
+					<a href="" class="header-top__link">Акции</a>
+				</li>
+				<li class="header-top__item">	
+					<a href="" class="header-top__link">Помощь</a>
+				</li>
+				<li class="header-top__item">	
+					<a href="" class="header-top__link">Доставка и оплата</a>
+				</li>
+				<li class="header-top__item">	
+					<a href="" class="header-top__link">Оптовым покупателям</a>
+				</li>
+				<li class="header-top__item">	
+					<a href="" class="header-top__link">Отзывы</a>
+				</li>
+			</ul>
+			<div class="header-bottom__link">
+				<img src="image/label.png" alt="" class="header-bottom__img">
+				<span class="adress">163057, г. Архангельск,<br>ул. Тимме, д.4, корп.3</span>
+			</div>
+			<a href="tel:+79999123341" class="header-bottom__link">
+				<img src="image/phone.svg" alt="" class="header-bottom__img">
+				<span class="telephone__span">+7 (999) 912-33-41</span>
+			</a>
+		</div>
+	<script src="js/main.js"></script>
+</body>
+</html>			
