@@ -617,6 +617,7 @@ input:focus {
 }
 
 .favorite__card {
+	position: relative;
 	width: 18.8959%;
 }
 
@@ -1907,3 +1908,37 @@ input:focus {
 		display: none;
 	}
 
+
+.recomendation__slider-mark {
+	max-width: 53%;
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	background: rgba(238, 81, 38, 0.88);
+	padding: 14px 25px;
+	font-family: 'Roboto-medium', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.delete-rec {
+	position: absolute;
+	top: 2%;
+	right: 5%;
+	width: 46px;
+	height: 46px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #F7F7F7;
+	opacity: 0.92;
+	border: 1px solid #E5E5E5;
+	border-radius: 50%;
+}
+
+.delete-rec__img {
+	width: 14px;
+}
